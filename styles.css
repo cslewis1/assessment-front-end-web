@@ -37,6 +37,10 @@ input {
 	display: block;
 }
 
+input[type=checkbox]{
+	display: inline;
+}
+
 img {
 	max-width: 300px;
 	margin-bottom: 10%
@@ -102,6 +106,7 @@ h3, .img-paragraph{
 	background: url(powder-springs.jpg);
 	background-repeat: no-repeat; 
 	background-size: 460px 200px;
+	margin-bottom: 10%;
 }
 
 .powderSprings{
@@ -140,4 +145,15 @@ h3, .img-paragraph{
 	border-bottom: 2px solid black;
 }
 
+.pickerResult{
+	height: 5vh;
+	font-size: 18px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.bottomSpacing{
+
+	margin-bottom: 10%;
+}
 

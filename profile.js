@@ -5,12 +5,3 @@ let ritualBtn = document.querySelector("#ritual");
 colorBtn.addEventListener("click", () => alert('My favorite color is black.'));
 placeBtn.addEventListener("click", () => alert('My favorite place is home'));
 ritualBtn.addEventListener("click",() => alert('My favorite ritual is morning workouts'));
-
-
-let restaurantBtn = document.querySelector("#restaurant");
-let recBtn = document.querySelector("#recreation");   
-
-
-let pickRestaurant = () => {
-
-}

@@ -1,60 +1,59 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Homepage</title>
-	<link href="styles.css" rel="stylesheet">
+  <head>
+    <title>Homepage</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <ol>
+        <li class="crumb"><a href="./home.html">Home</a></li>
+        <li class="crumb"><a href="./profile.html">Profile</a></li>
+        <li class="crumb"><a href="./about.html">About</a></li>
+        <li class="crumb"><a href="./neighborhood.html">Neighborhood</a></li>
+      </ol>
+    </nav>
 
-</head>
-<body>
-	<nav>
-		<ol>
-	        <li class="crumb"><a href="./home.html">Home</a></li>
-	        <li class="crumb"><a href="./profile.html">Profile</a></li>
-	        <li class="crumb"><a href="./about.html">About</a></li>
-			<li class="crumb"><a href="./neighborhood.html">Neighborhood</a></li>
-	    </ol>
-	</nav>
+    <content>
+      <h1>Hello World</h1>
+      <!-- insert hello world here -->
+      <p>Welcome to my website!!!</p>
 
-	<content>
-		<h1>Hello World</h1>
-		<!-- insert hello world here -->
-		<p>Welcome to my website!!!</p>
+      <img src="Stimpy.jpg" id="stimpy-the-cat" />
 
-		<img src="Stimpy.jpg" id="stimpy-the-cat">
+      <ul>
+        <li>You code so well!</li>
+        <li>You are a great par-programmer</li>
+        <li>You design great websites</li>
+      </ul>
 
-		<ul >
-			<li>You code so well!</li>
-			<li>You are a great par-programmer </li>
-			<li>You design great websites</li>
-		</ul>
+      <h2>Contact Us</h2>
+      <form id="contact">
+        Your name:
+        <input type="text" />
 
-		<h2>Contact Us</h2>
-		<form id="contact">
-			Your name:
-			<input type="text">
+        Message:
+        <input type="textarea" />
 
-			Message:
-			<input type="textarea">
+        <input type="submit" />
+        <br />
 
-			<input type="submit">
-			<br>
-			How did you hear about us:
-			<input type="checkbox" name="google" id="google">
-			<label for="google">Google</label>
+        How did you hear about us:
+        <div>
+          <input type="checkbox" name="advertisement" id="google" />
+          <label for="google">Google</label>
+        </div>
+        <div>
+          <input type="checkbox" name="advertisement" id="friend" />
+          <label for="friend">A Friend</label>
+        </div>
+        <div>
+          <input type="checkbox" name="advertisement" id="other" />
+          <label for="other">Other</label>
+        </div>
+      </form>
+    </content>
 
-			<input type="checkbox" name="google" id="google">
-			<label for="google">A Friend</label>
-
-			<input type="checkbox" name="google" id="google">
-			<label for="google">Other</label> 
-
-
-		</form>
-
-	</content>
-
-
-	<script src="about.js"></script>
-
-</body>
+    <script src="about.js"></script>
+  </body>
 </html>
