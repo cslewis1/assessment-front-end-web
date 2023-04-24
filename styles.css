@@ -1,0 +1,143 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+	margin-bottom: 10%
+}
+
+.name{
+	margin-bottom: 1%;
+}
+.img-paragraph{
+	margin-top: 0%;
+	margin-bottom: 10%;
+}
+
+h3, .img-paragraph{
+	font-style: italic;
+}
+
+.headshot{
+	display: flex;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.line-spacing{
+	line-height: 25px;
+}
+
+.skills_hobbies_sections{
+	display: flex;
+}
+
+.skills, .hobbies{
+	margin: 0;
+	max-width: 100%; 
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left; 
+}
+
+.skills li {
+	margin-bottom: 5px; 
+	width: 33.3%;
+}
+
+.hobbies li {
+	margin-bottom: 5px; 
+	width: 50%;
+}
+
+.buttons_section{
+	margin-top: 5%;
+}
+
+.favoriteBtns{
+	padding: 10px;
+	background-color: yellow;
+}
+
+.powderS{
+	width: 100%;
+	height: 25vh;
+	background: url(powder-springs.jpg);
+	background-repeat: no-repeat; 
+	background-size: 460px 200px;
+}
+
+.powderSprings{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	margin: 0;
+}
+
+.restaurants-parks{
+	width: 100%;	
+	height: auto;
+	display: flex;
+	gap: 10px;
+	margin-bottom: 10%;
+	text-align: center;
+}
+
+.restaurant-parks-list a{
+	text-decoration: none;
+	color: black;
+}
+
+.restaurant-parks-list{
+	border-radius: 50%;
+}
+
+.restaurant-parks-list img{
+	width: 100%;
+	height: 70%;
+	border-radius: 20%;
+	margin-top: 10px;
+}
+
+.underlined{
+	border-bottom: 2px solid black;
+}
+
+
