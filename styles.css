@@ -106,7 +106,7 @@ h3, .img-paragraph{
 	background: url(powder-springs.jpg);
 	background-repeat: no-repeat; 
 	background-size: 460px 200px;
-	margin-bottom: 10%;
+	margin-bottom: 0%;
 }
 
 .powderSprings{
@@ -153,7 +153,6 @@ h3, .img-paragraph{
 }
 
 .bottomSpacing{
-
 	margin-bottom: 10%;
 }
 
